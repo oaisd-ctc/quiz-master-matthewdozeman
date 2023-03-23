@@ -734,7 +734,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 173.9, y: 59.686}
+  m_AnchoredPosition: {x: 143.01, y: 59.686}
   m_SizeDelta: {x: 39.9361, y: 38.453}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &370747726
@@ -871,8 +871,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c9c15baaa41589438ae0aac4592b936, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToCompleteQuestion: 5
-  timeToShowCorrectAnswer: 10
+  timeToCompleteQuestion: 10
+  timeToShowCorrectAnswer: 5
   loadNextQuestion: 1
   isAnsweringQuestion: 1
   fillFraction: 0
@@ -1816,7 +1816,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questionText: {fileID: 129651015}
-  question: {fileID: 11400000, guid: b3106c546ff1b6f44b186ed4790c5532, type: 2}
+  questions:
+  - {fileID: 11400000, guid: b3106c546ff1b6f44b186ed4790c5532, type: 2}
+  - {fileID: 11400000, guid: 9ed1b7d399d4fc3428439dafeb5cfb74, type: 2}
+  - {fileID: 11400000, guid: 4fd64e451cc973741bd11851cd1e6313, type: 2}
+  - {fileID: 11400000, guid: 232ad2f37fc29d941ba300297bb06e87, type: 2}
+  - {fileID: 11400000, guid: 0c7419a65e94b10438f0e536d26f987a, type: 2}
   answerButtons:
   - {fileID: 791197211}
   - {fileID: 484553194}
